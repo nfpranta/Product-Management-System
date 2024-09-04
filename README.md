@@ -69,7 +69,3 @@ By default, the app will be available at `http://localhost:4200/`.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This `README.md` should provide clear and structured guidance for setting up and running the Angular project locally, as well as basic usage instructions. Adjust the specific sections as needed to fit the details of your project.
