@@ -48,7 +48,6 @@ export class ProductFormComponent {
     });
 
     if (this.editData) {
-      console.log(this.editData);
       this.ActionButtonName = 'Update';
       this.productForm.controls['name'].setValue(this.editData.name);
       this.productForm.controls['category'].setValue(this.editData.category);

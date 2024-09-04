@@ -78,8 +78,6 @@ export class ProductService {
     const currentRecords = this.productRecords.value;
     this.deleteFromLocalStorage(id);
     const index = currentRecords.findIndex((record) => record.id === id);
-    console.log(index);
-
     if (index !== -1) {
       currentRecords.splice(index, 1);
       this.productRecords.next([...currentRecords]);

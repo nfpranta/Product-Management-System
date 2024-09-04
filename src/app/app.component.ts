@@ -29,7 +29,7 @@ export class AppComponent {
         this.allProducts = res;
       },
       error: (err) => {
-        console.log('Error while getting all the products');
+        alert('Error while getting all the products');
       },
     });
   }

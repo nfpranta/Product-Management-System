@@ -75,10 +75,6 @@ export class ProductTableComponent implements OnInit {
   pageSizeOptions: any;
 
   onPaginateChange(event: any) {
-    console.log('length' + event.length);
-    console.log('pageSize' + event.pageSize);
-    console.log('pageIndex' + event.pageIndex);
-    console.log('pageSizeOption' + event.pageSizeOptions);
     this.getAllProducts();
   }
   ngOnInit(): void {
@@ -144,7 +140,6 @@ export class ProductTableComponent implements OnInit {
   }
 
   deleteProduct(id: number) {
-    console.log(id);
     this.productService.deleteProductRecord(id);
     alert('deleted Successfully');
     this.getAllProducts();
